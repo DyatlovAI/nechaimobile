@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "431899759356",
+    "project_id": "nechaimobile",
+    "storage_bucket": "nechaimobile.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:431899759356:android:6b49ae0bf83a0752977d79",
+        "android_client_info": {
+          "package_name": "com.example.nechaimobile"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAOMPl5kXzvLwDHW53bR-M8SCHJp8WaSgA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
