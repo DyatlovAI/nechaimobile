@@ -35,9 +35,9 @@
                 android:layout_marginStart="10dp"
                 android:textSize="20sp"
                 android:textColor="@color/black"
-                android:text="Бизнес-класс" />
+                android:text="Комфорт" />
             <Switch
-                android:id="@+id/businessClassSwitch"
+                android:id="@+id/komfortSwitch"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentEnd="true"
@@ -59,9 +59,9 @@
                     android:layout_marginStart="10dp"
                     android:textSize="20sp"
                     android:textColor="@color/black"
-                    android:text="Бизнес-класс" />
+                    android:text="АКПП" />
                 <Switch
-                    android:id="@+id/businessClass"
+                    android:id="@+id/akppClass"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_alignParentEnd="true"

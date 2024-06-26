@@ -12,17 +12,13 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.nechaimobile.Models.User;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
-import com.google.android.gms.tflite.acceleration.Model;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.firestore.FieldValue;
 import com.google.firebase.firestore.FirebaseFirestore;
-
-import org.w3c.dom.Text;
-
-import java.time.temporal.TemporalQueries;
 
 public class Register extends AppCompatActivity {
 
