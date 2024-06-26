@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".profile">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+
+            android:background="@color/liteblue"
+            android:layout_height="80dp">
+
+        <Button
+            android:id="@+id/back"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/arrow1"/>
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:fontFamily="@font/jet"
+                android:text="Профиль"
+                android:textColor="@color/black"
+                android:textSize="24dp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+                <ProgressBar
+                    android:id="@+id/progressBar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    android:layout_gravity="center"/>
+                <TextView
+                    android:id="@+id/fullname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/jet"
+                    android:textSize="22dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:layout_marginBottom="30dp"
+                    />
+              <Button
+                  android:id="@+id/setting"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:background="@drawable/back_profile"
+                  android:layout_marginStart="20dp"
+                  android:layout_marginEnd="20dp"
+                  android:textSize="18dp"
+                  android:text="Настройки"
+                  android:textAllCaps="false"
+                  android:layout_marginBottom="15dp"/>
+                <Button
+                    android:id="@+id/poezdki"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:background="@drawable/back_profile"
+                  android:layout_marginStart="20dp"
+                    android:textSize="18dp"
+                    android:layout_marginEnd="20dp"
+                  android:text="Поездки"
+                  android:textAllCaps="false"
+                  android:layout_marginBottom="15dp"/>
+                <Button
+                    android:id="@+id/shtrafi"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:background="@drawable/back_profile"
+                  android:layout_marginStart="20dp"
+                  android:layout_marginEnd="20dp"
+                  android:text="Штрафы"
+                  android:textAllCaps="false"
+                  android:layout_marginBottom="15dp"/>
+
+
+
+
+
+            </LinearLayout>
+        </FrameLayout>
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

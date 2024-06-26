@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">nechaimobile</string>
+        <string-array name="time_intervals">
+            <item>30 минут</item>
+            <item>1 час</item>
+            <item>2 часа</item>
+            <item>3 часа</item>
+            <item>4 часа</item>
+            <item>5 часов</item>
+        </string-array>
+</resources>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/etNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Number" />
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:layout_below="@id/etNumber"
+        android:layout_marginTop="8dp"/>
+
+    <EditText
+        android:id="@+id/etKorobka"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Korobka"
+        android:layout_below="@id/etName"
+        android:layout_marginTop="8dp"/>
+
+    <EditText
+        android:id="@+id/etLatitude"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Latitude"
+        android:layout_below="@id/etKorobka"
+        android:layout_marginTop="8dp"/>
+
+    <EditText
+        android:id="@+id/etLongitude"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Longitude"
+        android:layout_below="@id/etLatitude"
+        android:layout_marginTop="8dp"/>
+
+    <ImageView
+        android:id="@+id/ivPhotoAut"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_below="@id/etLongitude"
+        android:layout_marginTop="8dp"
+        android:scaleType="centerCrop"
+        android:contentDescription="Automobile Photo"/>
+
+    <Button
+        android:id="@+id/btnSelectImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Image"
+        android:layout_below="@id/ivPhotoAut"
+        android:layout_marginTop="8dp"/>
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:layout_below="@id/btnSelectImage"
+        android:layout_marginTop="8dp"/>
+
+</RelativeLayout>
