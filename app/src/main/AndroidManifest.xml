@@ -13,6 +13,27 @@
         android:theme="@style/Theme.Nechaimobile"
         tools:targetApi="31">
         <activity
+            android:name=".Models.poisk"
+            android:exported="false" />
+        <activity
+            android:name=".poezdki"
+            android:exported="false" />
+        <activity
+            android:name=".shtrafi"
+            android:exported="false" />
+        <activity
+            android:name=".dr"
+            android:exported="false" />
+        <activity
+            android:name=".card"
+            android:exported="false" />
+        <activity
+            android:name=".setting"
+            android:exported="false" />
+        <activity
+            android:name=".profile"
+            android:exported="false" />
+        <activity
             android:name=".carprofile"
             android:exported="false" />
         <activity
